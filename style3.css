@@ -1,0 +1,120 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.appointment{
+display: flex;
+flex-direction:column;
+justify-content:center;
+place-items: center;
+border:solid black;
+padding-top: 10px;
+margin-left:1000px;
+margin-right:70px;
+margin-top:70px;
+padding-bottom:20px;
+border-radius:55px;
+margin-bottom: 0px;
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+font-family: "Playwrite GB S", cursive;
+font-optical-sizing: auto;
+font-weight: 200px;
+font-style: normal;
+}
+input{
+border: 2px solid black;
+border-radius: 7px;
+margin-bottom: 10px;
+padding: 15px;
+margin-top: 10px;
+width: 165px;
+}
+
+button{
+font-size: medium;
+background-color:NAVY;
+width:100px;
+height:40px;
+}
+.dmy{
+width: 600;
+}
+body{
+background-repeat: no-repeat;
+background-size: cover;
+width:100vw;
+height:100vh;
+}
+form{
+background-image: url(gb2.png);
+background-repeat: no-repeat;
+}
+.heading{
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Playwrite GB S", cursive;
+font-optical-sizing: auto;
+font-weight: 200px;
+font-style: normal;
+background-color:rgb(17, 17, 135);
+padding-top:30px;
+padding-bottom:50px;
+color: white;
+}
+.loc{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 35px;
+}
+.name{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 75px;
+}
+.email{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 105px;
+}
+.spe{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+gap: 23px;
+}
+.num{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 40px;
+}
+.date{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap:100px;
+}
+
+.sub-button{
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 150px;
+}
+
+.appointment label{
+    color: white;
+}

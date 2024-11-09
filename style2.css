@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-left:0px;
+}
+div.doc{
+    padding-left:20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 800px;
+    background-color: rgb(4, 4, 83);
+    padding-top:100px;
+    padding-bottom:80px;
+    color:white;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style:bold;
+}
+div.searchbutton{
+    border-style: groove;
+    border-color:white;
+    color: white;
+    width: 200px;
+    height:30px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+}
+input{
+    border:none;
+    width:300px;
+    background-color:rgb(4, 4, 83);
+    color:white;
+}
+.doctors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+}
+h1{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:50px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+}
+.diadoc1{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.diadoc2{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.diadoc3{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.diadoc4{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.cardoc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+}
+.cardoc1{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardoc2{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardoc3{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardoc4{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gydoc{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+    gap: 40px;
+}
+.gydoc1{
+    margin-left: 60px;
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gydoc2{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gydoc3{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ondoc{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+    gap: 40px;
+}
+.ondoc1{
+    margin-left: 60px;
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ondoc2{
+    border-style:groove;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+    border: 0;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    background-color:#001A55;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.emergency{
+    padding-right: 20px;
+    font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style:bold;
+  text-decoration: none;
+  color:white;
+}
+.abt-us{
+    text-decoration: none;
+  padding-right: 20px;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style:bold;
+  color:white;
+}
+.home{
+    padding-right: 20px;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+  text-decoration: none;
+  color:white;
+}
+.logo{
+    position: relative;
+    height: 41px;
+    width: 130px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.buttons{
+    float: right;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.buttons a{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    font-size:25px;
+    color:black;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style:bold;
+    
+}
+.lab{
+   width: 20px;
+   height: 20px;
+}
+.tests{
+    display: flex;
+    justify-content: space-between;
+}
+.book{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-style:solid;
+    border-color: aliceblue;
+    margin-top:160px;
+    margin-bottom:140px;
+    padding-right:30px;
+    padding-left:30px;
+    background-color: aquamarine;
+}
+.lab-test{
+   padding-bottom:20px;
+}
+.pres{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-style:solid;
+    margin-top:160px;
+    margin-bottom:140px;
+    padding-right:30px;
+    padding-left:30px;
+    border-color: aliceblue;
+    background-color:rgb(68, 133, 198)
+}
+.prescr{
+    padding-bottom: 20px;
+}
+.all-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style:bold;
+}
+.heach1{
+    border-style:solid;
+    border-color: rgb(216, 210, 210);
+    border-radius: 20px;
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+   
+}
+.heach2{
+    border-style:solid;
+    border-color: rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    border-radius: 20px;
+    height:170px;
+}
+.heach3{
+    border-style:solid;
+    border-color: rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    border-radius: 20px;
+
+}
+.heach4{
+    border-style:solid;
+    border-color: rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    border-radius: 20px;
+    
+}
+.all-box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style:bold;
+}
+.fev1{
+    border-style:solid;
+    border-color: rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    border-radius: 20px;
+}
+.fev2{
+    border-style:solid;
+    border-color: rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    align-items: center;
+    width: 160px;
+    height:170px;
+    border-radius: 20px;
+}
+.fev3{
+    border-style:solid;
+    border-color: rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    align-items: center;
+    border-radius: 20px;
+}
+.fev4{
+    border-style:solid;
+    border-color: rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    border-radius: 20px;
+}
+.hiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style:bold;
+}
+.hiv1{
+    border-style:groove;
+    border-color:rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    align-items: center;
+    border-radius: 20px;
+}
+.hiv2{
+    border-style:groove;
+    border-color:rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    align-items: center;
+    border-radius: 20px;
+}
+.hiv3{
+    border-style:groove;
+    border-color:rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    align-items: center;
+    border-radius: 20px;
+}
+.hiv4{
+    border-style:groove;
+    border-color:rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    align-items: center;
+    border-radius: 20px;
+}
+.popular{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style:bold;
+}
+.pop1{
+    border-style:groove;
+    border-color:rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    align-items: center;
+    border-radius: 20px;
+}
+.pop2{
+    border-style:groove;
+    border-color:rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    align-items: center;
+    border-radius: 20px;
+}
+.pop3{
+    border-style:groove;
+    border-color:rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    align-items: center;
+    border-radius: 20px;
+}
+.pop4{
+    border-style:groove;
+    border-color:rgb(216, 210, 210);
+    padding:5px 30px 20px;
+    width: 160px;
+    height:170px;
+    align-items: center;
+    border-radius: 20px;
+}
+h1{
+    margin-left: 90px;
+    color: #001A55;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style:bold;
+}
+button{
+  
+    width: 70px;
+    height: 30px;
+    background-color:rgb(9, 15, 87);
+    color: white;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style:bold;
+}
+h4{
+  color:blue;
+}
+p{
+    color: rgb(3, 70, 93);
+}
+.chh{
+    background-image:url(labpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,338 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 0;
+    background-color:#001A55;
+    padding-bottom: 40px;
+}
+.logo{
+    position: relative;
+    height: 41px;
+    width: 130px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.animation{
+    margin-top: 70px;
+}
+
+.buttons{
+    float: right;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.emergency{
+  padding-right: 20px;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font: weight 200px;
+  font-style: normal;
+  text-decoration: none;
+}
+.search{
+    align-items: center;
+    text-align: center;
+    font-weight:bold;
+}
+.text-white{
+    color:white;
+}
+
+.abt-us{
+  text-decoration: none;
+  padding-right: 20px;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+}
+.home{
+    text-decoration: none;
+    padding-right: 20px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+}
+.buttons a:hover{
+    background-color:black;
+}
+.search:hover{
+    background-color:tan;
+}
+div.login{
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#loginButton{
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+}
+body{
+    background-image: url(soms\ newbg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw;
+    height: 100vh; */
+}
+.heading{
+    text-align: center;
+}
+.loc{
+    margin-top:20px;
+    width: 350px;
+    height:70px;
+    padding-left:0px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style:bold; 
+}
+.spe{
+    width: 120px;
+    height: 60px;
+    margin-top:20px;
+    width: 350px;
+    height:70px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style:bold;
+    
+}
+.appointment{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top:200px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        margin-left: 200px;
+        margin-right: 250px;
+        border-style: groove;
+        gap: 5px;
+        backdrop-filter:blur(30px);
+    box-shadow:0px 0px 30px rgba(227,228,237,0.18);
+    border:2px solid rgba(255,255,255,0.18);
+}
+
+.book{
+    margin-left: 0%;
+    margin-top:20px;
+    width: 350px;
+    height:70px;
+    margin-left: 20px;
+    padding-left:10px;
+    margin: right 10px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style:bold;
+    background-color: #001A55;
+    color:white;
+    
+}
+.smh
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 300px;
+    margin-left: 400px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 1000px;
+    font-style:bold;
+    color: #000000;
+    
+    /*
+    background-image:url(new2bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:rgb(3, 25, 66);
+    */
+}
+div.allop{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+}
+.lab{
+    text-decoration: none;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    /* margin-bottom: 120px; */
+    font-style:bold;
+    color:blue;
+    border-style: groove;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    width:140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+    background-color: aliceblue
+}
+/*.location{
+    text-decoration:none ;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 1000px;
+    font-style:bold;
+    color:black;
+    border-style: groove;
+    padding: 30px;
+    font-size :25px;
+  background-color: whitesmoke;
+}*/
+.checkup{
+    text-decoration: none;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 1000px;
+    font-style:bold;
+    color:blue;
+    border-style: groove;
+    font-size:25px;
+   
+    /* margin-bottom: 120px; */
+    padding: 10px 20px 10px 20px;
+    width:140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+    background-color: aliceblue
+}
+.speciality{
+    text-decoration: none;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 1000px;
+    font-style:bold;
+    color:blue;
+    border-style: groove;
+    
+    font-size: 25px;
+    /* margin-bottom: 120px; */
+    padding: 10px 20px 10px 20px;
+    width:140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+    background-color:aliceblue
+}
+.doctor{
+    height: 60px;
+    width:60px;
+}
+.care{
+    height: 60px;
+    width:60px;
+}
+.locu{
+    height: 60px;
+    width:60px;
+}
+.flask{
+    height: 60px;
+    width:60px;
+}  
+.foot{
+    margin-top: 100px;
+    padding-top: 40px;
+    background-color: #001A55; 
+    display: flex;
+    padding-bottom:50px;
+}
+.dropdown{
+    display: block;
+    color:black;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color:white;
+    color: black;
+    min-width: 100px;
+    margin-top: -50px;
+    box-shadow:2px 2px 5px black;
+}
+.emergency:hover .content{
+    display: block;
+}
+.fa-solid .fa-caret-down{
+    padding-left;
+    color: white;
+}
+.abtt{
+    display: flex;
+    flex-direction: column;
+    padding-left: 140px;
+    padding-bottom:8px;
+}
+a{
+    text-decoration: none;
+    color: white; 
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 1000px;
+    font-style:bold;
+}
+.t{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 1000px;
+    font-style:bold;
+    font-size: 25px;
+    color: white;
+}
+.center{
+    display: flex;
+    flex-direction:column;
+    padding-left: 140px;
+    padding-bottom:8px;
+}
+.git{
+    color: white;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-style:bold;
+    padding-left: 60px;
+}
+.c{
+    font-size: 25px;
+}
+.g{
+    font-size: 25px;
+}
+
+
+
+
+
+
